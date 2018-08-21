@@ -3,6 +3,7 @@ def my_collect(words) # put argument(s) here
   new_array = []
   while i < words.length
     yield words[i]
+    
     i += 1
   end
 end
